@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 660" fill="none">
+  <defs>
+    <linearGradient id="paper" x1="0" y1="0" x2="720" y2="660" gradientUnits="userSpaceOnUse"><stop stop-color="#FFFCF5"/><stop offset="1" stop-color="#F7EEDD"/></linearGradient>
+  </defs>
+  <rect x="1" y="1" width="718" height="658" rx="19" fill="url(#paper)" stroke="#DCC8A4"/>
+  <g stroke="#C2A16B" stroke-width="1" opacity=".45"><path d="M18 70V34q0-16 16-16h36M650 18h36q16 0 16 16v36M702 590v36q0 16-16 16h-36M70 642H34q-16 0-16-16v-36"/><path d="m34 50 16-16m620 0 16 16m0 560-16 16M50 626l-16-16"/></g>
+  <!-- Lower side road from the highlighted junction; it does not reconnect to the wedding entrance. -->
+  <path d="m410 242 135 86q12 8 26 11l89 27" stroke="#A27B3D" stroke-width="36" stroke-linecap="butt" stroke-linejoin="round"/>
+  <path d="m410 242 135 86q12 8 26 11l89 27" stroke="#FCF7EC" stroke-width="32" stroke-linecap="butt" stroke-linejoin="round"/>
+  <!-- Upper access road continues from the bend toward the ceremony house. -->
+  <path d="m484 192 159 53" stroke="#A27B3D" stroke-width="36" stroke-linecap="butt" stroke-linejoin="round"/>
+  <path d="m484 192 159 53" stroke="#FCF7EC" stroke-width="32" stroke-linecap="butt" stroke-linejoin="round"/>
+  <path d="m105 590 42-177q3-14 18-23L471 205q18-11 27-28l67-122" stroke="#A27B3D" stroke-width="47" stroke-linecap="butt" stroke-linejoin="round"/>
+  <path d="m105 590 42-177q3-14 18-23L471 205q18-11 27-28l67-122" stroke="#FCF7EC" stroke-width="43" stroke-linecap="butt" stroke-linejoin="round"/>
+  <g stroke="#A27B3D" stroke-width="2.5"><path d="m118 540 16-69"/><path d="m186 376 48-29"/><path d="m388 255 49-30"/><path d="m533 209 42 14"/></g>
+  <g fill="#A27B3D"><path d="m-10-5 12 5-12 5 4-5Z" transform="translate(134 471) rotate(-77)"/><path d="m-10-5 12 5-12 5 4-5Z" transform="translate(234 347) rotate(-31)"/><path d="m-10-5 12 5-12 5 4-5Z" transform="translate(437 225) rotate(-31)"/><path d="m-10-5 12 5-12 5 4-5Z" transform="translate(575 223) rotate(18)"/></g>
+  <!-- Supplied house artwork is composited separately. -->
+  <path d="M633 78c0 14-18 31-18 31s-18-17-18-31a18 18 0 1 1 36 0Z" fill="#A27B3D"/>
+  <path d="M615 85c-14-8-8-17-2-11l2 2 2-2c6-6 12 3-2 11Z" fill="#FFFAEE"/>
+  <circle cx="643" cy="245" r="5" fill="#A27B3D"/>
+  <!-- Police post landmark, matching the reference's labelled point. -->
+  <ellipse cx="476" cy="405" rx="51" ry="6" fill="#B59152" opacity=".08"/>
+  <g stroke="#A27B3D" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M438 356h76v45h-76z" fill="#B59152" fill-opacity=".07"/>
+    <path d="m431 356 45-20 45 20Zm40 45v-24h12v24m-33-38h10v11h-10Zm42 0h10v11h-10ZM430 402h92m-82-54v-21h12m-12 0v12h12v-12"/>
+    <path d="m476 345 7 3v7c0 7-7 10-7 10s-7-3-7-10v-7Z" fill="#FCF7EC"/>
+  </g>
+  <!-- Supplied pagoda artwork is composited separately. -->
+  <!-- Small gold botanical flourish balances the open corner. -->
+  <g stroke="#BE9B61" stroke-width="1.4" opacity=".48"><path d="M558 558q42-40 90-43m-44 19q-23-22-9-42 23 9 9 42Zm-17 12q-28-13-24-34 27 0 24 34Zm35-22q8-28 30-28 4 26-30 28Zm-69 43q39-8 72 3m-33-9q-5-27 14-37 17 20-14 37Z"/></g>
+</svg>

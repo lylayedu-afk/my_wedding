@@ -1,0 +1,182 @@
+{
+  "sourceSha256": "4bf27033dd6ed182d3c1849f04c3b89db76368357c88a311fbdbf95ed3bacc85",
+  "embeddedAssetOccurrences": 55,
+  "uniqueAssets": 35,
+  "assets": {
+    "font-218ad56b7ee82cbe.woff2": {
+      "type": "font/woff2",
+      "bytes": 25528,
+      "sha256": "218ad56b7ee82cbeb37ef3277fe64ad44358cb3e048f3f3aa6f046efca1b69f6"
+    },
+    "font-dca8cce9117da2aa.woff2": {
+      "type": "font/woff2",
+      "bytes": 21544,
+      "sha256": "dca8cce9117da2aacd99c57133a9cfc3a2653398e1ff1557ceb143d91dffffa7"
+    },
+    "font-6c3cb2774836454d.woff2": {
+      "type": "font/woff2",
+      "bytes": 30208,
+      "sha256": "6c3cb2774836454d27425722f929599dd2e65d6a50659f08d4050ecd73ddfec0"
+    },
+    "decoration-ed92049f832aac92.svg": {
+      "type": "image/svg+xml",
+      "bytes": 2044,
+      "sha256": "ed92049f832aac921d113fa6cfd845f7a962a68445ad359eec19a6fca5c6833b"
+    },
+    "decoration-4d8e68279465b236.svg": {
+      "type": "image/svg+xml",
+      "bytes": 374,
+      "sha256": "4d8e68279465b236814206ff10d09661a370d86fe43113df4a42c2140d3193b2"
+    },
+    "photo-3a1e3c98ac4d9233.jpg": {
+      "type": "image/jpeg",
+      "bytes": 386487,
+      "sha256": "3a1e3c98ac4d9233fb61ae87a08ddb91cb2449b1da05108a662cab6a66ed59de"
+    },
+    "photo-62c0454efb5133ca.jpg": {
+      "type": "image/jpeg",
+      "bytes": 458442,
+      "sha256": "62c0454efb5133ca4d3dec66a59bd3d4170896452e0d9354865bf373b58bf167"
+    },
+    "image-b0361585d7d67c35.png": {
+      "type": "image/png",
+      "bytes": 44088,
+      "sha256": "b0361585d7d67c35e28d0470294b895f70453ffe79832c2277baae3672ef8dd9"
+    },
+    "image-ae8cc741ec9f6fc4.png": {
+      "type": "image/png",
+      "bytes": 33056,
+      "sha256": "ae8cc741ec9f6fc4db2641c61c4d396c8abc71c3e903e85e53b8dbff14b335e7"
+    },
+    "image-2ae203ad33af6c5c.png": {
+      "type": "image/png",
+      "bytes": 39288,
+      "sha256": "2ae203ad33af6c5c43f706d0597de2ef8104e953966789d5ebcefaf310b85763"
+    },
+    "image-e160777fd6fb1e8e.png": {
+      "type": "image/png",
+      "bytes": 46428,
+      "sha256": "e160777fd6fb1e8ee0d7acdf3b2d39836b4be4a9090d29cedba6166ba0bfbd53"
+    },
+    "image-816ac764724b2645.png": {
+      "type": "image/png",
+      "bytes": 25643,
+      "sha256": "816ac764724b2645c5283ea2f84df65848ec27932fba4c0979c8f8cc4dad839e"
+    },
+    "image-4acb1d31697f3afb.png": {
+      "type": "image/png",
+      "bytes": 38274,
+      "sha256": "4acb1d31697f3afb9c3c069c9d03387dd45e52c2b188d9b88bf3dd0b160d80ec"
+    },
+    "image-5b9a814bfa826e5f.png": {
+      "type": "image/png",
+      "bytes": 30129,
+      "sha256": "5b9a814bfa826e5f255c4160faa4cf13e5906e8586f3514f5d92f66c82adb0d4"
+    },
+    "image-e94f914a449829a4.png": {
+      "type": "image/png",
+      "bytes": 38901,
+      "sha256": "e94f914a449829a45ef99046e9953cf664fa6eff7e35278643ef3ca69e011b79"
+    },
+    "image-67e420160ad62f2f.png": {
+      "type": "image/png",
+      "bytes": 45942,
+      "sha256": "67e420160ad62f2f1ab5845c6950935f21713ff214303c6ffa357d2fa321813e"
+    },
+    "image-ed1edc34284b9b92.png": {
+      "type": "image/png",
+      "bytes": 28055,
+      "sha256": "ed1edc34284b9b92455463cb937f6984349a548487b7f8bc963c9eb30c30270e"
+    },
+    "image-fa6f185530e752fb.png": {
+      "type": "image/png",
+      "bytes": 39401,
+      "sha256": "fa6f185530e752fb76693ff6d42154917153c79d682ed9b61875f79409c8d429"
+    },
+    "image-20e9eff70c9e409b.png": {
+      "type": "image/png",
+      "bytes": 21089,
+      "sha256": "20e9eff70c9e409b19da9f8d4f5db9b898638fad7e1128cbeffda87f864606ee"
+    },
+    "image-1f032da3c4d9dc82.png": {
+      "type": "image/png",
+      "bytes": 21192,
+      "sha256": "1f032da3c4d9dc82b12845fec68d48d4b5542fe8b60847b0d5439b9a7a0ac401"
+    },
+    "wedding-b5a48eac7375d999.ics": {
+      "type": "text/calendar",
+      "bytes": 305,
+      "sha256": "b5a48eac7375d99926f789ca69f75f7ba49def447c8ccb92a190b6b5abc070d5"
+    },
+    "decoration-c75f2ea0f7861d4d.svg": {
+      "type": "image/svg+xml",
+      "bytes": 3190,
+      "sha256": "c75f2ea0f7861d4d8e04763447db3cffeb3bc7a17731a8fa407d0d8b2cbc5995"
+    },
+    "image-0ec5968f2ff4c4da.png": {
+      "type": "image/png",
+      "bytes": 72138,
+      "sha256": "0ec5968f2ff4c4dad72e2f005525642f9b1c4208af310c749a999daf6ba9a741"
+    },
+    "image-5fda0b83489357a1.png": {
+      "type": "image/png",
+      "bytes": 70652,
+      "sha256": "5fda0b83489357a1dbb5d223f3dcc0f3660fd0cb3007be8ad90147a995d1995a"
+    },
+    "photo-eee5732db84a4554.jpg": {
+      "type": "image/jpeg",
+      "bytes": 368488,
+      "sha256": "eee5732db84a455450eacc2a58c3701f2767879726d3f9321c2a04e719b03f5d"
+    },
+    "photo-ed88066062c6c387.jpg": {
+      "type": "image/jpeg",
+      "bytes": 398020,
+      "sha256": "ed88066062c6c387c286da775908f128b7e70afee936f2292e2b64f2c9fd5658"
+    },
+    "photo-c67f78059efd6760.jpg": {
+      "type": "image/jpeg",
+      "bytes": 477780,
+      "sha256": "c67f78059efd67606efc5a169b218cc34d415d0ecbd48e165652b3ff7473129a"
+    },
+    "photo-9edf06426a2b20cb.jpg": {
+      "type": "image/jpeg",
+      "bytes": 576884,
+      "sha256": "9edf06426a2b20cb0d989111198f3de52d891f26f9789f1cf07e5188afa149d3"
+    },
+    "photo-99d996d16378fc07.jpg": {
+      "type": "image/jpeg",
+      "bytes": 485934,
+      "sha256": "99d996d16378fc07e432d3cc776660f16ea7d6ffff88f99075507d37bfc305fc"
+    },
+    "photo-d94816634f1b0484.jpg": {
+      "type": "image/jpeg",
+      "bytes": 334722,
+      "sha256": "d94816634f1b0484bc1b8cbdaee002aa401a2e5fec6afccc2d5f7cc02d3686b7"
+    },
+    "photo-f90d4b50121aba6b.jpg": {
+      "type": "image/jpeg",
+      "bytes": 640194,
+      "sha256": "f90d4b50121aba6b179fcf1733f2d22f37e25ecb5bd51c41b29566e425056eda"
+    },
+    "photo-d5da3adc77b00834.jpg": {
+      "type": "image/jpeg",
+      "bytes": 836782,
+      "sha256": "d5da3adc77b00834d67b2258e470b01e67aa27cd30db5fef37c5edece879a80e"
+    },
+    "opening-video-7561ff2fe57b81da.mp4": {
+      "type": "video/mp4",
+      "bytes": 16516982,
+      "sha256": "7561ff2fe57b81dafc6581cd8155731196fe60142e6e711a9bbaf0d774984507"
+    },
+    "photo-cf6e79a6d891926c.jpg": {
+      "type": "image/jpeg",
+      "bytes": 44732,
+      "sha256": "cf6e79a6d891926c7808c6c02843ec88c5dbd38a18089b467a0c6be40671f468"
+    },
+    "background-music-bac32dc37ba6d895.m4a": {
+      "type": "audio/mp4",
+      "bytes": 1148551,
+      "sha256": "bac32dc37ba6d895c23cfdcc867aa2fd4015fc71929227b031b83d159a2fa2c4"
+    }
+  }
+}

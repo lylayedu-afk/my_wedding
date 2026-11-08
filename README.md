@@ -65,6 +65,7 @@ console.log(link.href);
 
 - `public/index.html`: invitation content and media references.
 - `public/styles.css`: colors, layout, and Khmer font declarations.
+- `public/wedding-date.js`: live countdown to the reception on 3 January 2027 at 5:00 PM in Cambodia. The countdown reads the `datetime` on `#wedding-start`; the displayed calendar highlights the same date.
 - `public/app.js`: guest name, opening video, music, scrolling, and photo gallery. `window.PAGE_INVITATION` at the top contains the default guest and automatic scrolling setting.
 - `public/assets/`: all invitation images, fonts, video, song, and calendar file. Keep this folder with the page.
 - `vercel.json`: hosting settings and compatibility routes.

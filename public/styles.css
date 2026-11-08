@@ -1378,3 +1378,233 @@
     .music-control .music-slash { display: none; }
     .music-control button[aria-pressed="true"] .music-waves { display: none; }
     .music-control button[aria-pressed="true"] .music-slash { display: initial; }
+
+    .date-page .story-content {
+      padding-top: 36px;
+      padding-bottom: 36px
+    }
+
+    .date-page h2 {
+      font-size: clamp(18px, 3vw, 25px);
+      margin-bottom: 26px
+    }
+
+    .wedding-date-layout {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+      align-items: center;
+      gap: 30px
+    }
+
+    .countdown-panel {
+      min-width: 0;
+      text-align: center
+    }
+
+    .wedding-date-number {
+      display: block;
+      color: var(--gold);
+      font: 32px/1.6 Moulpali, Moul, serif;
+      white-space: nowrap
+    }
+
+    .wedding-date-caption {
+      font-size: 13px;
+      line-height: 2;
+      margin: 8px 0 22px
+    }
+
+    .wedding-date-caption span {
+      color: var(--gold)
+    }
+
+    .countdown-subheading {
+      font: 15px/1.8 Nokora, sans-serif;
+      margin: 0 0 12px
+    }
+
+    .wedding-countdown {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 8px
+    }
+
+    .countdown-unit {
+      min-width: 0;
+      padding: 15px 3px 11px;
+      border: 1px solid #ddcba9b3;
+      border-radius: 12px;
+      background: #fffdf7b3
+    }
+
+    .countdown-value {
+      display: block;
+      color: var(--gold);
+      font: 28px/1.4 Moulpali, Moul, serif;
+      font-variant-numeric: tabular-nums
+    }
+
+    .countdown-label {
+      display: block;
+      font-size: 11px;
+      margin-top: 7px
+    }
+
+    .countdown-status {
+      min-height: 1.8em;
+      margin: 14px 0 0;
+      color: var(--gold);
+      font-size: 12px
+    }
+
+    .wedding-calendar {
+      min-width: 0;
+      padding: 22px 16px 18px;
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      background: linear-gradient(150deg, #fffdf9e8, #f8efdfd9)
+    }
+
+    .wedding-calendar h3 {
+      font: 13px/1.8 Nokora, sans-serif;
+      margin: 0 0 6px
+    }
+
+    .wedding-calendar table {
+      width: 100%;
+      table-layout: fixed;
+      border-collapse: collapse;
+      text-align: center
+    }
+
+    .wedding-calendar caption {
+      color: var(--gold);
+      font: 22px/1.8 Moulpali, Moul, serif;
+      padding-bottom: 12px
+    }
+
+    .wedding-calendar th {
+      color: var(--gold);
+      font-weight: 400;
+      font-size: 12px;
+      padding: 0 0 10px
+    }
+
+    .wedding-calendar abbr {
+      text-decoration: none
+    }
+
+    .wedding-calendar td {
+      padding: 3px 1px;
+      font-size: 15px;
+      line-height: 1.4
+    }
+
+    .calendar-day {
+      position: relative;
+      display: inline-grid;
+      place-items: center;
+      width: 100%;
+      max-width: 36px;
+      aspect-ratio: 1;
+      border-radius: 50%
+    }
+
+    .calendar-other-month {
+      color: #b4a897
+    }
+
+    .calendar-wedding-day .calendar-day {
+      background: var(--gold);
+      color: #fffdf7;
+      box-shadow: 0 0 0 4px #a27b3d17
+    }
+
+    .calendar-day-heart {
+      position: absolute;
+      top: -3px;
+      right: -2px;
+      width: 12px;
+      height: 12px;
+      fill: #b48a43;
+      stroke: #fffdf7;
+      stroke-width: 1.5
+    }
+
+    .calendar-legend {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      margin: 13px 0 16px;
+      color: var(--gold);
+      font-size: 11px
+    }
+
+    .calendar-legend:before {
+      content: '';
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background: var(--gold)
+    }
+
+    .calendar-save {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 8px;
+      width: 100%;
+      font-size: 12px
+    }
+
+    .calendar-save svg {
+      flex: 0 0 18px;
+      width: 18px;
+      height: 18px;
+      fill: none;
+      stroke: currentColor;
+      stroke-width: 1.5
+    }
+
+    @media(max-width:680px) {
+      .date-page .story-content {
+        padding-top: 30px;
+        padding-bottom: 28px
+      }
+
+      .wedding-date-layout {
+        grid-template-columns: minmax(0, 1fr);
+        gap: 28px
+      }
+
+      .countdown-panel,
+      .wedding-calendar {
+        width: 100%;
+        max-width: 360px;
+        margin-inline: auto
+      }
+
+      .wedding-date-number {
+        font-size: 30px
+      }
+    }
+
+    @media(max-width:360px) {
+      .wedding-date-number {
+        font-size: 26px
+      }
+
+      .countdown-value {
+        font-size: 24px
+      }
+
+      .wedding-calendar {
+        padding-inline: 12px
+      }
+    }
+
+    .portrait-opening img {
+      aspect-ratio: 2/3;
+      object-position: center
+    }

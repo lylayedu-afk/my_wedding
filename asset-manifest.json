@@ -1,7 +1,7 @@
 {
   "sourceSha256": "4bf27033dd6ed182d3c1849f04c3b89db76368357c88a311fbdbf95ed3bacc85",
   "embeddedAssetOccurrences": 55,
-  "uniqueAssets": 59,
+  "uniqueAssets": 40,
   "assets": {
     "font-218ad56b7ee82cbe.woff2": {
       "type": "font/woff2",
@@ -128,19 +128,6 @@
       "bytes": 1148551,
       "sha256": "bac32dc37ba6d895c23cfdcc867aa2fd4015fc71929227b031b83d159a2fa2c4"
     },
-    "opening-video-e3a0731549131670.mp4": {
-      "type": "video/mp4",
-      "bytes": 9827031,
-      "sha256": "e3a0731549131670a4ce663078da6804a32327a5e04214bc0266f2ec3d9aaa5a",
-      "durationSeconds": 46.97666666666667
-    },
-    "opening-photo-fc97d44c78faad00.jpg": {
-      "type": "image/jpeg",
-      "bytes": 11699535,
-      "sha256": "fc97d44c78faad00d46328acdcd7dccbcdc0a879f2b9471814c5abeadd4f27d1",
-      "width": 4032,
-      "height": 6048
-    },
     "gallery-thumb-3b93b7541f7c3f86.webp": {
       "type": "image/webp",
       "bytes": 107418,
@@ -152,48 +139,6 @@
       "type": "image/webp",
       "bytes": 290998,
       "sha256": "0a638cc795d7323ec4b2535fae995b3e1e9c1d8cf800ead1f2f30f7b59de02ff",
-      "width": 2200,
-      "height": 1467
-    },
-    "gallery-thumb-abd5f3b6c68b0b95.webp": {
-      "type": "image/webp",
-      "bytes": 94258,
-      "sha256": "abd5f3b6c68b0b95f69bedbf514873caa0f77dbb6b678ea2595b83b76ee9f7e5",
-      "width": 1440,
-      "height": 960
-    },
-    "gallery-full-93d58ea1db45e131.webp": {
-      "type": "image/webp",
-      "bytes": 247402,
-      "sha256": "93d58ea1db45e13118d602937ade12513fb8e91c28f87fdd3272f671e177108b",
-      "width": 2200,
-      "height": 1467
-    },
-    "gallery-thumb-a57b1f621239f2a7.webp": {
-      "type": "image/webp",
-      "bytes": 129124,
-      "sha256": "a57b1f621239f2a7b61629dccf4e19a2bbbc085a9af969dbde7f67c6170f6847",
-      "width": 1440,
-      "height": 960
-    },
-    "gallery-full-8f04a9370346e0f2.webp": {
-      "type": "image/webp",
-      "bytes": 312206,
-      "sha256": "8f04a9370346e0f2be1688dba9e4e8bcd1267a7f3fded7a036b09d6cb999945e",
-      "width": 2200,
-      "height": 1467
-    },
-    "gallery-thumb-6689871765d0fd71.webp": {
-      "type": "image/webp",
-      "bytes": 279782,
-      "sha256": "6689871765d0fd710d0d04b342cdd8ca3e8becdb18ee6a79a944cfb93e0cd845",
-      "width": 1440,
-      "height": 960
-    },
-    "gallery-full-28e2e90da50377a1.webp": {
-      "type": "image/webp",
-      "bytes": 792562,
-      "sha256": "28e2e90da50377a1794d06ce6ea907fcfb9a78fb54667068831821d11d6b628e",
       "width": 2200,
       "height": 1467
     },
@@ -253,117 +198,46 @@
       "width": 1467,
       "height": 2200
     },
-    "gallery-thumb-e2d519b24c845731.webp": {
+    "gallery-full-6ead2f3beb506f3c.webp": {
       "type": "image/webp",
-      "bytes": 87456,
-      "sha256": "e2d519b24c84573116fbf7a20ecb99ea0ec484ac3eea60d7930bd6fc7b935943",
-      "width": 640,
-      "height": 960
-    },
-    "gallery-full-024610c71c3ee5b6.webp": {
-      "type": "image/webp",
-      "bytes": 378082,
-      "sha256": "024610c71c3ee5b686eb4a8c25bb916718c9546ecb559d8847e4b82494cda920",
+      "bytes": 140510,
+      "sha256": "6ead2f3beb506f3c57ad085f0e1fcdca289c1dcaf7955db91cb91d69d398ff16",
       "width": 1467,
       "height": 2200
     },
-    "gallery-thumb-3544150a260ae2dc.webp": {
+    "gallery-thumb-369a5d2706150cb4.webp": {
       "type": "image/webp",
-      "bytes": 64982,
-      "sha256": "3544150a260ae2dc8c11e435a2ed61dd61425ea5caadea506ca1d3a33170da01",
+      "bytes": 30076,
+      "sha256": "369a5d2706150cb416603014f4c21e6b41e7d0dddd0f1ea2ca26289c56e6bbf3",
       "width": 640,
       "height": 960
     },
-    "gallery-full-23a5188f390d4d4a.webp": {
+    "gallery-full-bfca497e7075b615.webp": {
       "type": "image/webp",
-      "bytes": 350346,
-      "sha256": "23a5188f390d4d4a08db146da23a737426965cc41ec34a2cd0675e57efee269c",
+      "bytes": 163748,
+      "sha256": "bfca497e7075b615ccf63be98314f63e76c539724fb36f0214026d24b6efcff0",
       "width": 1467,
       "height": 2200
     },
-    "gallery-thumb-3e5b0f4418952c13.webp": {
+    "gallery-thumb-8bfbf3ae0c1eb0c5.webp": {
       "type": "image/webp",
-      "bytes": 170854,
-      "sha256": "3e5b0f4418952c13b781f0f82ba985d9a865cb02e1ef8f6d242b0f7050a29fc2",
-      "width": 1440,
-      "height": 960
-    },
-    "gallery-full-cc7d152d548f3ef7.webp": {
-      "type": "image/webp",
-      "bytes": 400108,
-      "sha256": "cc7d152d548f3ef79f60c640cd12a4a1d8c032d04303485b69205d2964fc4780",
-      "width": 2200,
-      "height": 1467
-    },
-    "gallery-thumb-ae9fbd46f6547d8c.webp": {
-      "type": "image/webp",
-      "bytes": 133362,
-      "sha256": "ae9fbd46f6547d8c51e68176b1a7f194f4b195a8a09e188344c2ae6b3e758059",
-      "width": 1440,
-      "height": 960
-    },
-    "gallery-full-747545d4ce975bad.webp": {
-      "type": "image/webp",
-      "bytes": 312464,
-      "sha256": "747545d4ce975bad49a46ac30fdd8d15c02b37b022e9a659888b39f6f6b00a84",
-      "width": 2200,
-      "height": 1467
-    },
-    "gallery-thumb-aa58ed63fa9635b7.webp": {
-      "type": "image/webp",
-      "bytes": 50936,
-      "sha256": "aa58ed63fa9635b7ccccb311b844cf42a11981c167d4e4684bd73229c2f23686",
+      "bytes": 36304,
+      "sha256": "8bfbf3ae0c1eb0c542dabde1402d3485619fc44d0720e44ace07540a6b2b5088",
       "width": 640,
       "height": 960
     },
-    "gallery-full-ff8094cfd31f6302.webp": {
-      "type": "image/webp",
-      "bytes": 220052,
-      "sha256": "ff8094cfd31f6302d222653d3313c983d8341f54e9dd3aa0bce202589d3f6f9a",
-      "width": 1467,
-      "height": 2200
-    },
-    "gallery-thumb-92847441955a6d26.webp": {
-      "type": "image/webp",
-      "bytes": 110450,
-      "sha256": "92847441955a6d262c6d835d18b45010a38cbfbbb8a3125cdc7f6ace6999e889",
-      "width": 640,
-      "height": 960
-    },
-    "gallery-full-f8b048604147a7e2.webp": {
-      "type": "image/webp",
-      "bytes": 431274,
-      "sha256": "f8b048604147a7e242df7972dbca982770d2c452c1855f41024cce24a9371a35",
-      "width": 1467,
-      "height": 2200
-    },
-    "gallery-thumb-e5a5af2e2d800b6e.webp": {
-      "type": "image/webp",
-      "bytes": 39746,
-      "sha256": "e5a5af2e2d800b6e205c1065c2de42e442be3eec76fa4978724c3ab7178b3418",
-      "width": 640,
-      "height": 960
-    },
-    "gallery-full-95e6f03e8dccf104.webp": {
-      "type": "image/webp",
-      "bytes": 214944,
-      "sha256": "95e6f03e8dccf104642398e2d732eaefdcf8a087bd00bc09db5c7bb50dfe7fce",
-      "width": 1467,
-      "height": 2200
-    },
-    "gallery-thumb-1691889a9f17d733.webp": {
-      "type": "image/webp",
-      "bytes": 40450,
-      "sha256": "1691889a9f17d73372ec9c0ddbc6d90d2c0e04a22e2ed3929d9a4cc07791f2f6",
-      "width": 640,
-      "height": 960
-    },
-    "gallery-full-09f6dbf54964a481.webp": {
-      "type": "image/webp",
-      "bytes": 207118,
-      "sha256": "09f6dbf54964a481e2cb8c67f193301a136bbcee541b9e07f94bbb887ae6b58b",
-      "width": 1467,
-      "height": 2200
+    "opening-video-a1da8930960717cb.mp4": {
+      "type": "video/mp4",
+      "bytes": 9311900,
+      "sha256": "a1da8930960717cb3b0425eddf7d6a1f88b1064832a47c00dcc66f03e5d33335",
+      "durationSeconds": 44,
+      "edit": {
+        "sourceSha256": "e3a0731549131670a4ce663078da6804a32327a5e04214bc0266f2ec3d9aaa5a",
+        "sourceStartSeconds": 0,
+        "sourceEndSeconds": 44,
+        "originalDurationSeconds": 46.97666666666667,
+        "method": "passthrough"
+      }
     }
   }
 }

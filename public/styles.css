@@ -862,6 +862,11 @@
       background: var(--soft)
     }
 
+    .gallery-photo-landscape {
+      grid-column: 1 / -1;
+      aspect-ratio: 3/2
+    }
+
     .gallery-photo img {
       width: 100%;
       height: 100%;

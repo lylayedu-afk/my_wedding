@@ -92,3 +92,7 @@ Media were extracted from the standalone HTML and deduplicated without changing 
 - [Vercel static build settings](https://vercel.com/docs/builds/configure-a-build)
 - [Vercel configuration](https://vercel.com/docs/project-configuration/vercel-json)
 - [Vercel CLI deployment](https://vercel.com/docs/cli/deploy)
+
+## Dress-code occasions
+
+The reference palette uses Cherry (#a13340) for ពេលល្ងាចថ្ងៃទី ២, Gold (#cf9f3b) for ពេលព្រឹកហែជំនូន, and Olive green (#8da65c) for ពេលល្ងាចសូត្រមន្ត. The dress-code section uses rectangular swatches and readable Khmer occasion labels. The Flutter admin exposes an editable Occasion field for each color. These changes are local until the invitation project is redeployed.

@@ -1621,73 +1621,59 @@
 
     .dress-code-palette {
       display: grid;
-      grid-template-columns: repeat(3, minmax(0, 1fr));
-      gap: 20px;
-      max-width: 460px;
-      margin: 30px auto 4px;
+      grid-template-columns: minmax(0, 1fr);
+      gap: 24px;
+      max-width: 520px;
+      margin: 32px auto 4px;
       padding: 0;
       list-style: none
     }
 
     .dress-code-color {
+      display: grid;
+      grid-template-columns: 26px minmax(0, 1fr);
+      align-items: center;
+      gap: 24px;
       min-width: 0;
-      text-align: center
+      text-align: left
     }
 
     .dress-code-swatch {
       display: block;
-      width: clamp(64px, 9vw, 88px);
-      aspect-ratio: 1;
-      margin: 8px auto 20px;
-      border-radius: 50%;
-      background: var(--dress-color);
-      box-shadow: 0 0 0 5px #fffdf7, 0 0 0 6px #ddcba9b3
+      width: 26px;
+      height: 78px;
+      border-radius: 2px;
+      background: var(--dress-color)
+    }
+
+    .dress-code-details { min-width: 0 }
+
+    .dress-code-occasion {
+      margin: 0 0 5px;
+      color: var(--gold);
+      font-size: clamp(16px, 2.2vw, 20px);
+      line-height: 2;
+      text-wrap: balance
     }
 
     .dress-code-name {
       margin: 0;
       color: var(--ink);
-      font-size: 15px;
-      line-height: 1.8;
-      text-wrap: balance
+      font-size: 14px;
+      line-height: 1.8
     }
 
     .dress-code-english {
-      margin: 4px 0 0;
+      display: inline-block;
+      margin-left: 10px;
       color: var(--gold);
       font-size: 11px;
-      line-height: 1.5
+      line-height: 1.6
     }
 
     @media(max-width:680px) {
-      .dress-code-palette {
-        gap: 12px;
-        margin-top: 26px
-      }
-
-      .dress-code-name {
-        font-size: 13px
-      }
-
-      .dress-code-intro {
-        font-size: 12px
-      }
-    }
-
-    @media(max-width:360px) {
-      .dress-code-palette {
-        gap: 8px
-      }
-
-      .dress-code-swatch {
-        width: 58px
-      }
-
-      .dress-code-name {
-        font-size: 12px
-      }
-
-      .dress-code-english {
-        font-size: 10px
-      }
+      .dress-code-palette { gap: 22px; margin-top: 26px }
+      .dress-code-color { grid-template-columns: 22px minmax(0, 1fr); gap: 18px }
+      .dress-code-swatch { width: 22px; height: 74px }
+      .dress-code-intro { font-size: 12px }
     }

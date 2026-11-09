@@ -23,6 +23,10 @@
     {
       "source": "/golden_floral_story.html",
       "destination": "/index.html"
+    },
+    {
+      "source": "/:guest",
+      "destination": "/index.html"
     }
   ]
 }

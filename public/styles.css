@@ -1608,3 +1608,86 @@
       aspect-ratio: 2/3;
       object-position: center
     }
+
+    .dress-code-page h2 {
+      margin-bottom: 6px
+    }
+
+    .dress-code-intro {
+      margin: 0;
+      font-size: 14px;
+      text-align: center
+    }
+
+    .dress-code-palette {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 20px;
+      max-width: 460px;
+      margin: 30px auto 4px;
+      padding: 0;
+      list-style: none
+    }
+
+    .dress-code-color {
+      min-width: 0;
+      text-align: center
+    }
+
+    .dress-code-swatch {
+      display: block;
+      width: clamp(64px, 9vw, 88px);
+      aspect-ratio: 1;
+      margin: 8px auto 20px;
+      border-radius: 50%;
+      background: var(--dress-color);
+      box-shadow: 0 0 0 5px #fffdf7, 0 0 0 6px #ddcba9b3
+    }
+
+    .dress-code-name {
+      margin: 0;
+      color: var(--ink);
+      font-size: 15px;
+      line-height: 1.8;
+      text-wrap: balance
+    }
+
+    .dress-code-english {
+      margin: 4px 0 0;
+      color: var(--gold);
+      font-size: 11px;
+      line-height: 1.5
+    }
+
+    @media(max-width:680px) {
+      .dress-code-palette {
+        gap: 12px;
+        margin-top: 26px
+      }
+
+      .dress-code-name {
+        font-size: 13px
+      }
+
+      .dress-code-intro {
+        font-size: 12px
+      }
+    }
+
+    @media(max-width:360px) {
+      .dress-code-palette {
+        gap: 8px
+      }
+
+      .dress-code-swatch {
+        width: 58px
+      }
+
+      .dress-code-name {
+        font-size: 12px
+      }
+
+      .dress-code-english {
+        font-size: 10px
+      }
+    }

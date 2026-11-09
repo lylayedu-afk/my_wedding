@@ -2,8 +2,7 @@ window.PAGE_INVITATION = { "guest": "បង ហ៊ន គីមហាន", "auto
     (() => {
       'use strict';
       const config = window.PAGE_INVITATION;
-      const queryGuest = new URLSearchParams(location.search).get('guest');
-      const guest = String(queryGuest ?? config.guest ?? '').replace(/[\u0000-\u001f\u007f]/g, ' ').replace(/\s+/g, ' ').trim().slice(0, 160);
+      const guest = window.invitationGuestName(location, config.guest);
       if (guest) document.querySelectorAll('[data-guest-name]').forEach(node => { node.textContent = guest; });
       const opener = document.getElementById('open-invitation-btn');
       const bodyPage = document.getElementById('invitation');

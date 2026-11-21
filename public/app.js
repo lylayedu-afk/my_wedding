@@ -250,3 +250,95 @@ window.PAGE_INVITATION = { "guest": "បង ហ៊ន គីមហាន", "auto
       }
 
     })();
+
+
+// Motion is optional. The invitation remains readable without these APIs.
+(() => {
+  'use strict';
+  const root = document.documentElement;
+  const preference = window.matchMedia('(prefers-reduced-motion: reduce)');
+  const sheets = [...document.querySelectorAll('.story-sheet')];
+  if (!sheets.length || !('IntersectionObserver' in window)) return;
+
+  const button = document.createElement('button');
+  button.type = 'button';
+  button.className = 'motion-control';
+  button.innerHTML = '<span aria-hidden="true">✧</span>';
+  document.body.append(button);
+  let paused = false;
+
+  function syncMotion() {
+    const enabled = !paused && !preference.matches;
+    root.classList.toggle('motion-enabled', enabled);
+    const label = enabled ? 'ផ្អាកចលនា' : 'បើកចលនា';
+    button.setAttribute('aria-label', label);
+    button.setAttribute('title', label);
+    button.setAttribute('aria-pressed', String(paused));
+    // Revealed content stays visible when motion is paused or reduced.
+    if (!enabled) document.querySelectorAll('.motion-pending').forEach(node => {
+      node.classList.remove('motion-pending');
+      node.classList.add('motion-visible');
+    });
+  }
+
+  button.addEventListener('click', () => {
+    paused = !paused;
+    syncMotion();
+  });
+  preference.addEventListener('change', syncMotion);
+  document.addEventListener('visibilitychange', () => {
+    root.classList.toggle('motion-suspended', document.hidden);
+  });
+
+  for (const sheet of sheets.filter(node => node.matches('#home, #ending'))) {
+    const petals = document.createElement('div');
+    petals.className = 'ambient-petals';
+    petals.setAttribute('aria-hidden', 'true');
+    for (let index = 0; index < 10; index++) {
+      const petal = document.createElement('i');
+      petal.style.setProperty('--petal-left', `${5 + index * 10}%`);
+      petal.style.setProperty('--petal-size', `${4 + index % 4}px`);
+      petal.style.setProperty('--petal-duration', `${16 + index % 5 * 2}s`);
+      petal.style.setProperty('--petal-delay', `${-index * 2.7}s`);
+      petal.style.setProperty('--petal-drift', `${index % 2 ? -35 : 35}px`);
+      petals.append(petal);
+    }
+    sheet.prepend(petals);
+  }
+
+  const sheetObserver = new IntersectionObserver(entries => {
+    for (const entry of entries) {
+      entry.target.classList.toggle('is-in-view', entry.isIntersecting);
+      if (entry.isIntersecting) entry.target.style.setProperty('--petal-fall', `${entry.target.offsetHeight + 30}px`);
+    }
+  });
+  sheets.forEach(sheet => sheetObserver.observe(sheet));
+
+  const revealObserver = new IntersectionObserver(entries => {
+    for (const entry of entries) {
+      if (!entry.isIntersecting) continue;
+      entry.target.classList.remove('motion-pending');
+      entry.target.classList.add('motion-visible');
+      revealObserver.unobserve(entry.target);
+    }
+  }, { threshold: .06, rootMargin: '0px 0px -20px 0px' });
+
+  const selector = '.cover-heading, .cover-grid > .portrait, .cover-details > *, .story-content > .eyebrow, .story-content > h2, .letter-grid > *, .event-lockup, .countdown-panel, .wedding-calendar, .programme-day > h3, .programme-date, .programme-item, .dress-code-intro, .dress-code-color, .venue-route-map, .venue-details, .gallery-photo, .thanks-copy, .envelope, .ending-page .couple-names, .page-actions';
+  for (const sheet of sheets) {
+    sheet.querySelectorAll(selector).forEach((node, index) => {
+      node.classList.add('motion-reveal');
+      node.style.setProperty('--reveal-delay', `${index % 3 * 85}ms`);
+      if (!preference.matches) node.classList.add('motion-pending');
+      revealObserver.observe(node);
+    });
+  }
+
+  const photo = document.getElementById('lightbox-image');
+  photo?.addEventListener('load', () => {
+    photo.classList.remove('photo-arriving');
+    // Restart only after the next image has loaded to avoid flashing old photos.
+    void photo.offsetWidth;
+    photo.classList.add('photo-arriving');
+  });
+  syncMotion();
+})();
